@@ -133,3 +133,33 @@ suppose you have to see all the citis from your database table but not the dubli
         SELECT * FROM
     ```
 
+### 8. Table Columns Operations
+
+- Adding new columns
+
+    ```sql
+        ALTER TABLE table_name ADD column_name datatype(size); 
+    ```
+
+- Rename columns
+
+    ```sql
+        ALTER TABLE table_name CHANGE old_column_name new_column_name datatype(size);
+    ```
+
+- Delete columns
+
+    ```sql
+        ALTER TABLE table_name DROP COLUMN column_name;
+    ```
+
+
+### 9. UPDATE statement
+
+- Update table column
+
+    ```sql
+        UPDATE table_name SET column_name='value' WHERE condition='value';
+    ```
+
+### 10. Group BY Clause
