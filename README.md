@@ -36,6 +36,15 @@
 
 ```SQL
     CREATE TABLE table_name
+    (
+        id int,
+        name varchar(255),
+        gender varchar(255),
+        age varchar(255),
+        gpa varchar(255),
+        city varchar(255),
+        PRIMARY KEY (id)
+    );
 ```
 
 ### 2. DROP TABLE
